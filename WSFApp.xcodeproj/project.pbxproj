@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDF0B3425061E7E00C27AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0B3325061E7E00C27AE9 /* AppDelegate.m */; };
+		CEDF0B3725061E7E00C27AE9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0B3625061E7E00C27AE9 /* SceneDelegate.m */; };
+		CEDF0B3A25061E7E00C27AE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0B3925061E7E00C27AE9 /* ViewController.m */; };
+		CEDF0B3D25061E7E00C27AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDF0B3B25061E7E00C27AE9 /* Main.storyboard */; };
+		CEDF0B3F25061E8500C27AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF0B3E25061E8500C27AE9 /* Assets.xcassets */; };
+		CEDF0B4225061E8500C27AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDF0B4025061E8500C27AE9 /* LaunchScreen.storyboard */; };
+		CEDF0B4525061E8500C27AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0B4425061E8500C27AE9 /* main.m */; };
+		CEDF0B4F25061E8500C27AE9 /* WSFAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0B4E25061E8500C27AE9 /* WSFAppTests.m */; };
+		CEDF0B5A25061E8500C27AE9 /* WSFAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDF0B5925061E8500C27AE9 /* WSFAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDF0B4B25061E8500C27AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDF0B2725061E7E00C27AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDF0B2E25061E7E00C27AE9;
+			remoteInfo = WSFApp;
+		};
+		CEDF0B5625061E8500C27AE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDF0B2725061E7E00C27AE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDF0B2E25061E7E00C27AE9;
+			remoteInfo = WSFApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDF0B2F25061E7E00C27AE9 /* WSFApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSFApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDF0B3225061E7E00C27AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEDF0B3325061E7E00C27AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEDF0B3525061E7E00C27AE9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CEDF0B3625061E7E00C27AE9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CEDF0B3825061E7E00C27AE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEDF0B3925061E7E00C27AE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEDF0B3C25061E7E00C27AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDF0B3E25061E8500C27AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDF0B4125061E8500C27AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDF0B4325061E8500C27AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDF0B4425061E8500C27AE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEDF0B4A25061E8500C27AE9 /* WSFAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSFAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDF0B4E25061E8500C27AE9 /* WSFAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSFAppTests.m; sourceTree = "<group>"; };
+		CEDF0B5025061E8500C27AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDF0B5525061E8500C27AE9 /* WSFAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSFAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDF0B5925061E8500C27AE9 /* WSFAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSFAppUITests.m; sourceTree = "<group>"; };
+		CEDF0B5B25061E8500C27AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDF0B2C25061E7E00C27AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF0B4725061E8500C27AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF0B5225061E8500C27AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDF0B2625061E7E00C27AE9 = {
+			isa = PBXGroup;
+			children = (
+				CEDF0B3125061E7E00C27AE9 /* WSFApp */,
+				CEDF0B4D25061E8500C27AE9 /* WSFAppTests */,
+				CEDF0B5825061E8500C27AE9 /* WSFAppUITests */,
+				CEDF0B3025061E7E00C27AE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDF0B3025061E7E00C27AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF0B2F25061E7E00C27AE9 /* WSFApp.app */,
+				CEDF0B4A25061E8500C27AE9 /* WSFAppTests.xctest */,
+				CEDF0B5525061E8500C27AE9 /* WSFAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDF0B3125061E7E00C27AE9 /* WSFApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF0B3225061E7E00C27AE9 /* AppDelegate.h */,
+				CEDF0B3325061E7E00C27AE9 /* AppDelegate.m */,
+				CEDF0B3525061E7E00C27AE9 /* SceneDelegate.h */,
+				CEDF0B3625061E7E00C27AE9 /* SceneDelegate.m */,
+				CEDF0B3825061E7E00C27AE9 /* ViewController.h */,
+				CEDF0B3925061E7E00C27AE9 /* ViewController.m */,
+				CEDF0B3B25061E7E00C27AE9 /* Main.storyboard */,
+				CEDF0B3E25061E8500C27AE9 /* Assets.xcassets */,
+				CEDF0B4025061E8500C27AE9 /* LaunchScreen.storyboard */,
+				CEDF0B4325061E8500C27AE9 /* Info.plist */,
+				CEDF0B4425061E8500C27AE9 /* main.m */,
+			);
+			path = WSFApp;
+			sourceTree = "<group>";
+		};
+		CEDF0B4D25061E8500C27AE9 /* WSFAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF0B4E25061E8500C27AE9 /* WSFAppTests.m */,
+				CEDF0B5025061E8500C27AE9 /* Info.plist */,
+			);
+			path = WSFAppTests;
+			sourceTree = "<group>";
+		};
+		CEDF0B5825061E8500C27AE9 /* WSFAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF0B5925061E8500C27AE9 /* WSFAppUITests.m */,
+				CEDF0B5B25061E8500C27AE9 /* Info.plist */,
+			);
+			path = WSFAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDF0B2E25061E7E00C27AE9 /* WSFApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDF0B5E25061E8500C27AE9 /* Build configuration list for PBXNativeTarget "WSFApp" */;
+			buildPhases = (
+				CEDF0B2B25061E7E00C27AE9 /* Sources */,
+				CEDF0B2C25061E7E00C27AE9 /* Frameworks */,
+				CEDF0B2D25061E7E00C27AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSFApp;
+			productName = WSFApp;
+			productReference = CEDF0B2F25061E7E00C27AE9 /* WSFApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDF0B4925061E8500C27AE9 /* WSFAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDF0B6125061E8500C27AE9 /* Build configuration list for PBXNativeTarget "WSFAppTests" */;
+			buildPhases = (
+				CEDF0B4625061E8500C27AE9 /* Sources */,
+				CEDF0B4725061E8500C27AE9 /* Frameworks */,
+				CEDF0B4825061E8500C27AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDF0B4C25061E8500C27AE9 /* PBXTargetDependency */,
+			);
+			name = WSFAppTests;
+			productName = WSFAppTests;
+			productReference = CEDF0B4A25061E8500C27AE9 /* WSFAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDF0B5425061E8500C27AE9 /* WSFAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDF0B6425061E8500C27AE9 /* Build configuration list for PBXNativeTarget "WSFAppUITests" */;
+			buildPhases = (
+				CEDF0B5125061E8500C27AE9 /* Sources */,
+				CEDF0B5225061E8500C27AE9 /* Frameworks */,
+				CEDF0B5325061E8500C27AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDF0B5725061E8500C27AE9 /* PBXTargetDependency */,
+			);
+			name = WSFAppUITests;
+			productName = WSFAppUITests;
+			productReference = CEDF0B5525061E8500C27AE9 /* WSFAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDF0B2725061E7E00C27AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = USER;
+				TargetAttributes = {
+					CEDF0B2E25061E7E00C27AE9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					CEDF0B4925061E8500C27AE9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CEDF0B2E25061E7E00C27AE9;
+					};
+					CEDF0B5425061E8500C27AE9 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CEDF0B2E25061E7E00C27AE9;
+					};
+				};
+			};
+			buildConfigurationList = CEDF0B2A25061E7E00C27AE9 /* Build configuration list for PBXProject "WSFApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDF0B2625061E7E00C27AE9;
+			productRefGroup = CEDF0B3025061E7E00C27AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDF0B2E25061E7E00C27AE9 /* WSFApp */,
+				CEDF0B4925061E8500C27AE9 /* WSFAppTests */,
+				CEDF0B5425061E8500C27AE9 /* WSFAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDF0B2D25061E7E00C27AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF0B4225061E8500C27AE9 /* LaunchScreen.storyboard in Resources */,
+				CEDF0B3F25061E8500C27AE9 /* Assets.xcassets in Resources */,
+				CEDF0B3D25061E7E00C27AE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF0B4825061E8500C27AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF0B5325061E8500C27AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDF0B2B25061E7E00C27AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF0B3A25061E7E00C27AE9 /* ViewController.m in Sources */,
+				CEDF0B3425061E7E00C27AE9 /* AppDelegate.m in Sources */,
+				CEDF0B4525061E8500C27AE9 /* main.m in Sources */,
+				CEDF0B3725061E7E00C27AE9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF0B4625061E8500C27AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF0B4F25061E8500C27AE9 /* WSFAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDF0B5125061E8500C27AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDF0B5A25061E8500C27AE9 /* WSFAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDF0B4C25061E8500C27AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDF0B2E25061E7E00C27AE9 /* WSFApp */;
+			targetProxy = CEDF0B4B25061E8500C27AE9 /* PBXContainerItemProxy */;
+		};
+		CEDF0B5725061E8500C27AE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDF0B2E25061E7E00C27AE9 /* WSFApp */;
+			targetProxy = CEDF0B5625061E8500C27AE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDF0B3B25061E7E00C27AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDF0B3C25061E7E00C27AE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDF0B4025061E8500C27AE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDF0B4125061E8500C27AE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDF0B5C25061E8500C27AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEDF0B5D25061E8500C27AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDF0B5F25061E8500C27AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RVHGHEM2;
+				INFOPLIST_FILE = WSFApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZKTeco.WSFApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDF0B6025061E8500C27AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RVHGHEM2;
+				INFOPLIST_FILE = WSFApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZKTeco.WSFApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEDF0B6225061E8500C27AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RVHGHEM2;
+				INFOPLIST_FILE = WSFAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZKTeco.WSFAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSFApp.app/WSFApp";
+			};
+			name = Debug;
+		};
+		CEDF0B6325061E8500C27AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RVHGHEM2;
+				INFOPLIST_FILE = WSFAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZKTeco.WSFAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WSFApp.app/WSFApp";
+			};
+			name = Release;
+		};
+		CEDF0B6525061E8500C27AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RVHGHEM2;
+				INFOPLIST_FILE = WSFAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZKTeco.WSFAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WSFApp;
+			};
+			name = Debug;
+		};
+		CEDF0B6625061E8500C27AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5RVHGHEM2;
+				INFOPLIST_FILE = WSFAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZKTeco.WSFAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WSFApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDF0B2A25061E7E00C27AE9 /* Build configuration list for PBXProject "WSFApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF0B5C25061E8500C27AE9 /* Debug */,
+				CEDF0B5D25061E8500C27AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDF0B5E25061E8500C27AE9 /* Build configuration list for PBXNativeTarget "WSFApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF0B5F25061E8500C27AE9 /* Debug */,
+				CEDF0B6025061E8500C27AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDF0B6125061E8500C27AE9 /* Build configuration list for PBXNativeTarget "WSFAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF0B6225061E8500C27AE9 /* Debug */,
+				CEDF0B6325061E8500C27AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDF0B6425061E8500C27AE9 /* Build configuration list for PBXNativeTarget "WSFAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDF0B6525061E8500C27AE9 /* Debug */,
+				CEDF0B6625061E8500C27AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDF0B2725061E7E00C27AE9 /* Project object */;
+}
