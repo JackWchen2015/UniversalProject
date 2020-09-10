@@ -1,0 +1,6 @@
+framework module Pods_WSFApp_WSFAppUITests {
+  umbrella header "Pods-WSFApp-WSFAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
