@@ -29,6 +29,7 @@ PODS:
     - SDWebImage/Core (= 3.8.3)
   - SDWebImage/Core (3.8.3)
   - SSZipArchive (2.2.3)
+  - WSFoundation (0.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
@@ -45,8 +46,11 @@ DEPENDENCIES:
   - SBJson (~> 4.0.2)
   - SDWebImage (~> 3.7)
   - SSZipArchive
+  - WSFoundation
 
 SPEC REPOS:
+  "git@git.wanshifu.com:user-ios/WSFPodRepo.git":
+    - WSFoundation
   trunk:
     - AFNetworking
     - AvoidCrash
@@ -78,7 +82,8 @@ SPEC CHECKSUMS:
   SBJson: af3137ccda22be3004487524da0a071c75d4251b
   SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
   SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
+  WSFoundation: d4d3fec71f1bdc751a01ec9630c06d47e19dc903
 
-PODFILE CHECKSUM: b191519847963291cac201f6a67f070a469cab14
+PODFILE CHECKSUM: 066287979d901b18853b0f35d0ad73b4fae03b38
 
 COCOAPODS: 1.9.3

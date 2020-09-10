@@ -1,0 +1,6 @@
+framework module WSFoundation {
+  umbrella header "WSFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

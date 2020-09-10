@@ -1,6 +1,10 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+source 'git@git.wanshifu.com:user-ios/WSFPodRepo.git'
+
+
+
 target 'WSFApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
@@ -20,6 +24,12 @@ target 'WSFApp' do
   pod 'LYLDataBase'
   pod 'MJRefresh'
   pod 'SSZipArchive'
+  
+# private Pod
+  pod 'WSFoundation'
+# private Pod end
+
+
 #  pod 'YYCache', '~> 1.0.3'
 
 #  pod 'UMengUShare/UI’
