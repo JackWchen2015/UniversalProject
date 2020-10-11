@@ -1,14 +1,16 @@
 ${PODS_ROOT}/Target Support Files/Pods-WSFApp/Pods-WSFApp-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
-${BUILT_PRODUCTS_DIR}/AvoidCrash/AvoidCrash.framework
-${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework
-${BUILT_PRODUCTS_DIR}/KVOController/KVOController.framework
-${BUILT_PRODUCTS_DIR}/LYLDataBase/LYLDataBase.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
 ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
 ${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework
+${BUILT_PRODUCTS_DIR}/MMKVCore/MMKVCore.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
-${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
-${BUILT_PRODUCTS_DIR}/SBJson/SBJson.framework
+${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
 ${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
-${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework
-${BUILT_PRODUCTS_DIR}/WSFoundation/WSFoundation.framework
+${BUILT_PRODUCTS_DIR}/Shimmer/Shimmer.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework
+${BUILT_PRODUCTS_DIR}/YYCategories/YYCategories.framework
+${BUILT_PRODUCTS_DIR}/YYDispatchQueuePool/YYDispatchQueuePool.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework
+${BUILT_PRODUCTS_DIR}/YYText/YYText.framework

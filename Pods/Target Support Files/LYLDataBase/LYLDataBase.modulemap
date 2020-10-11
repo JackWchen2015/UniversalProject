@@ -1,6 +1,0 @@
-framework module LYLDataBase {
-  umbrella header "LYLDataBase-umbrella.h"
-
-  export *
-  module * { export * }
-}

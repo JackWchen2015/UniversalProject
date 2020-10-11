@@ -1,6 +1,0 @@
-framework module MyUUID {
-  umbrella header "MyUUID.h"
-
-  export *
-  module * { export * }
-}
